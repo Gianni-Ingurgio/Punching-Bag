@@ -11,7 +11,7 @@ Settings can be found at the top of the bot.js file
 ```javascript
 ///////////// User variables here /////////////
 var
-prefix = '!bag',  //set prefix
+prefix = 'bag!',  //set prefix
 reset = true,     //toggle auto reset
 ms = 60000        //set delay in ms to reset
 ```

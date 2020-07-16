@@ -1,6 +1,6 @@
 ///////////// User variables here /////////////
 var
-prefix = '!bag',  //set prefix
+prefix = 'bag!',  //set prefix
 reset = true,     //toggle auto reset
 ms = 60000        //set delay in ms to reset
 //////////// Proceed with caution /////////////
@@ -12,7 +12,7 @@ const token = require('./token.json'); //"[token]"
 client.on('ready', () => {
 	client.user.setPresence({activity: {type: 'WATCHING', name: prefix + ' [victim]'}})
 	console.log(client.user.username, 'watching', prefix);
-	console.log('Set to autoreset after', ms/1000, 'seconds')
+	console.log((reset) ? 'Set to autoreset after ' + ms/1000 + ' seconds' : 'Autoreset disabled')
 });
 
 var timeout
