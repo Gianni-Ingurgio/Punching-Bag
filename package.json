@@ -1,13 +1,11 @@
 {
   "name": "punching-bag",
+  "author": "Gianni Ingurgio",
   "version": "1.0.0",
   "description": "just renames itself ",
+  "repository": "github:Gianni-Ingurgio/Punching-Bag",
   "main": "bot.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^12.2.0"
   }
