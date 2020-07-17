@@ -1,0 +1,8 @@
+{
+  "prefix" : "bag!",
+  "reset"  : {
+    "toggle" : true,
+    "ms" : 60000
+  },
+  "token"  : "secret",
+}
