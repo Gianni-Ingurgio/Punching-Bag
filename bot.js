@@ -1,7 +1,7 @@
 const
 	Discord = require('discord.js'),
 	client = new Discord.Client(),
-	vars = require('./variables.json'),
+	vars = require('./variables.json')
 
 client.on('ready', () => {
 	client.user.setPresence({activity: {type: 'WATCHING', name: vars.prefix + ' [victim]'}})
